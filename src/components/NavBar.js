@@ -8,7 +8,7 @@ class Navbar extends Component {
           Ryan BrodeFrank
         </a>
         <a className="navbar-brand" id="Portfolio" href="/portfolio">Portfolio</a>
-        <a className="navbar-brand" id="Contact" href="/contact">Contact</a>
+        {/* <a className="navbar-brand" id="Contact" href="/contact">Contact</a> */}
       </nav>
     );
   }
