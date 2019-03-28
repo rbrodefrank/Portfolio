@@ -20,15 +20,16 @@ class Project extends Component {
         width: "50px",
       },
       project: {
-        marginTop: "10px",
-        marginBottom: "10px",
+        marginTop: "15px",
+        marginBottom: "15px",
       },
     }
     return (
-      <div style={style.project}>
+      <span style={style.project}>
+        <h4>{this.props.title}</h4>
         <a href={this.state.url} target="_blank" rel="noopener noreferrer"><img style={style.images} src={this.state.image} alt="Deployed"/></a>
         <a href={this.state.git} target="_blank" rel="noopener noreferrer"><img style={style.git} src={GitHubLogo} alt="Github Logo"/></a>
-      </div>
+      </span>
     );
   }
 }
