@@ -14,10 +14,10 @@ class Portfolio extends Component {
   render() {
     const style = {
       columnRight: {
-        borderRight: "1px solid grey",
+        borderRight: "1px solid rgba(0,0,0,.1)",
       },
       columnLeft: {
-        borderLeft: "1px solid grey",
+        borderLeft: "1px solid rgba(0,0,0,.1)",
       }
     }
     return (
