@@ -11,7 +11,7 @@ class About extends Component {
   }
   render() {
     return (
-      <div>
+      <div style={{marginBottom: "10px", marginTop: "10px"}}>
         <h3>About Me</h3>
         <hr />
         <img id="profile-picture" style={this.style.image} src={profilePic} alt="Headshot of Ryan BrodeFrank" />
