@@ -29,7 +29,9 @@ class Project extends Component {
         <h4>{this.props.title}</h4>
         <a href={this.state.url} target="_blank" rel="noopener noreferrer"><img style={style.images} src={this.state.image} alt="Deployed"/></a>
         <a href={this.state.git} target="_blank" rel="noopener noreferrer"><img style={style.git} src={GitHubLogo} alt="Github Logo"/></a>
+        <p>{this.props.discription}</p>
       </span>
+      
     );
   }
 }
