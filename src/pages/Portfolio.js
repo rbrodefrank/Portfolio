@@ -23,7 +23,7 @@ class Portfolio extends Component {
     }
     return (
       <div style={{marginBottom: "10px", marginTop: "10px"}}>
-        <h3>My Work</h3>
+        <h3>Projects</h3>
         <hr />
         <Row>
           <Col style={style.columnRight}><Project title="Point-of-Sale System" url="https://radiant-beyond-45567.herokuapp.com/" git="https://github.com/shayneofficer/POS-System" image={POSS} discription="This app was developed to improve upon some of the pain points that restaurants typically have with their POS systems. The Webster Halsted POS system combines a consumer facing view and a restaurant employee view accessed through a login system." /></Col>
