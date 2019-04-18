@@ -9,6 +9,7 @@ import GifTastic from "../images/giftastic.jpg";
 import Bamazon from "../images/bamazon.jpg";
 import TriviaGame from "../images/trivia_game.jpg";
 import WordGuess from "../images/word_guess.jpg";
+import StarWars from "../images/starwars.jpg";
 
 class Portfolio extends Component {
   render() {
@@ -32,13 +33,13 @@ class Portfolio extends Component {
         <br />
         <Row>
           <Col style={style.columnRight}><Project title="GifTastic" url="https://rbrodefrank.github.io/GifTastic/" git="https://github.com/rbrodefrank/GifTastic" image={GifTastic} discription="Gif Tastic is a website app that retreives Gifs from Giphy using the Giphy API." /></Col>
-          <Col><Project title="Pixar Trivia Game" url="https://rbrodefrank.github.io/TriviaGame/" git="https://github.com/rbrodefrank/TriviaGame" image={TriviaGame} discription="Trivia Game is a Pixar Trivia game with 10 multiple choice questions to test a user's knowledge on all things Pixar. " /></Col>
-          <Col style={style.columnLeft}><Project title="Word Guess Game" url="https://rbrodefrank.github.io/Word-Guess-Game/" git="https://github.com/rbrodefrank/Word-Guess-Game" image={WordGuess} discription="A simple Word Guessing Game with a fantasy creature theme." /></Col>
+          <Col><Project title="Pixar Trivia Game" url="https://rbrodefrank.github.io/TriviaGame/" git="https://github.com/rbrodefrank/TriviaGame" image={TriviaGame} discription="Pixar Trivia is a trivia game with 10 multiple choice questions to test a user's knowledge on all things Pixar. " /></Col>
+          <Col style={style.columnLeft}><Project title="Star Wars RPG" url="https://rbrodefrank.github.io/Star-Wars-RPG/" git="https://github.com/rbrodefrank/Star-Wars-RPG" image={StarWars} discription="Star Wars RPG is a game app that allows users to pick and battle different characters from the Star Wars franchise" /></Col>        
         </Row>
         <br />
         <Row>
           <Col style={style.columnRight}><Project title="Bamazon" url="https://rbrodefrank.github.io/Bamazon/" git="https://github.com/rbrodefrank/Bamazon" image={Bamazon} discription="Bamazon is an interactive program for buying, stocking, and keeping track of store inventory. It is meant to be used by three seperate user types: customers, managers, and supervisors." /></Col>
-          <Col></Col>
+          <Col><Project title="Word Guess Game" url="https://rbrodefrank.github.io/Word-Guess-Game/" git="https://github.com/rbrodefrank/Word-Guess-Game" image={WordGuess} discription="A simple Word Guessing Game with a fantasy creature theme." /></Col>          
           <Col style={style.columnLeft}></Col>
         </Row>
       </div>
