@@ -1,0 +1,50 @@
+.holder {
+  position: relative;
+}
+
+.images {
+  width: 200px;
+  height: 150px;
+  margin-right: 5px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden
+}
+
+.middleText {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.git {
+  height: 50px;
+  width: 50px;
+}
+
+.project {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+a:hover .images {
+  opacity: 0.4;
+}
+
+a:hover .middleText {
+  opacity: 1;
+}
+
+.text {
+  background-color: lightblue;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 20px;
+}

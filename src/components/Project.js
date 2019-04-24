@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import GitHubLogo from "../images/Github-Logo.jpg";
+import "./Project.css";
 
 class Project extends Component {
   state = {
@@ -8,30 +9,20 @@ class Project extends Component {
     image: this.props.image,
   }
 
-  render () {
-    const style = {
-      images: {
-        width:"200px",
-        height: "150px",
-        marginRight: "5px",
-      },
-      git: {
-        height: "50px",
-        width: "50px",
-      },
-      project: {
-        marginTop: "15px",
-        marginBottom: "15px",
-      },
-    }
+  render() {
     return (
-      <span style={style.project}>
+      <span className="project">
         <h4>{this.props.title}</h4>
-        <a href={this.state.url} target="_blank" rel="noopener noreferrer"><img style={style.images} src={this.state.image} alt="Deployed"/></a>
-        <a href={this.state.git} target="_blank" rel="noopener noreferrer"><img style={style.git} src={GitHubLogo} alt="Github Logo"/></a>
+        <a href={this.state.url} target="_blank" rel="noopener noreferrer" className="holder">
+          <img className="images" src={this.state.image} alt="Deployed" />
+          <div className="middleText">
+            <div className="text">Click to View</div>
+          </div>
+        </a>
+        <a href={this.state.git} target="_blank" rel="noopener noreferrer"><img className="git" src={GitHubLogo} alt="Github Logo" /></a>
         <p>{this.props.discription}</p>
       </span>
-      
+
     );
   }
 }
