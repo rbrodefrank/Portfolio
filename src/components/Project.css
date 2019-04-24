@@ -27,10 +27,19 @@
   height: 50px;
   width: 50px;
 }
+.row {
+  min-width: 318px;
+}
+
+.col {
+  min-width: 318px;
+}
 
 .project {
+  margin: auto;
   margin-top: 15px;
   margin-bottom: 15px;
+  max-width: 350px;
 }
 
 a:hover .images {

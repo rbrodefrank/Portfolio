@@ -11,7 +11,7 @@ class Project extends Component {
 
   render() {
     return (
-      <span className="project">
+      <div className="project">
         <h4>{this.props.title}</h4>
         <a href={this.state.url} target="_blank" rel="noopener noreferrer" className="holder">
           <img className="images" src={this.state.image} alt="Deployed" />
@@ -19,9 +19,9 @@ class Project extends Component {
             <div className="text">Click to View</div>
           </div>
         </a>
-        <a href={this.state.git} target="_blank" rel="noopener noreferrer"><img className="git" src={GitHubLogo} alt="Github Logo" /></a>
+        <a className="aGit" href={this.state.git} target="_blank" rel="noopener noreferrer"><img className="git" src={GitHubLogo} alt="Github Logo" /></a>
         <p>{this.props.discription}</p>
-      </span>
+      </div>
 
     );
   }
