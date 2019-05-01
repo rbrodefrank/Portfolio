@@ -13,6 +13,7 @@ class Navigation extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-sm navbar-light bg-light" style={{minWidth: "325px"}}>
+        {/* className for Nav: fixed-top scrolling-navbar */}
         <a className="navbar-brand" id="main" href="/">Ryan BrodeFrank</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
