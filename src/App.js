@@ -4,22 +4,26 @@ import NavBar from "./components/NavBar";
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Home from './pages/Home';
-import ComputerBackground from "./images/background_computer.jpg";
-import DeveloperBackground from "./images/background_developer.jpg";
+import Background from './components/Background';
 // import Contact from './pages/Contact';
 
 class App extends Component {
+  componentWillMount() {
+    console.log("test", )
+  }
   render() {
-    const style = {
-      height: "100%",
-      backgroundImage: "url(" + DeveloperBackground + ")",
-      backgroundRepeat: "no-repeat",
-      backgroundSize: "cover",
-      backgroundPosition: "center center"
-    }
+    // let style = {
+    //   height: "100%",
+    //   backgroundImage: "url(" + DeveloperBackground + ")",
+    //   backgroundRepeat: "no-repeat",
+    //   backgroundSize: "cover",
+    //   backgroundPosition: "center center",
+    //   backgroundAttachment: "fixed",
+    // }
 
     return (
-      <div  style={style}>
+      <div >
+        <Background />
         <NavBar />
         <Router>
           <div className="container">
