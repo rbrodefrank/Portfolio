@@ -36,10 +36,15 @@
 }
 
 .project {
+  height: 90%;
   margin: auto;
   margin-top: 15px;
   margin-bottom: 15px;
   max-width: 350px;
+  border: .125rem solid black;
+  border-radius: 25px;
+  padding: 1rem!important;
+  background-color: rgba(255, 255, 255, .6);
 }
 
 a:hover .images {

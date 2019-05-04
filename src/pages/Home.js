@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import "./Pages.css"
 
 class Home extends Component {
   render() {
     return (
-      <div style={{marginBottom: "10px", marginTop: "10px"}}>
+      <div className="backgroundCard">
         <h3>Home</h3>
         <hr />
 
