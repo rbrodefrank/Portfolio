@@ -19,7 +19,12 @@ class Project extends Component {
             <div className="text">Click to View</div>
           </div>
         </a>
-        <a className="aGit" href={this.state.git} target="_blank" rel="noopener noreferrer"><img className="git" src={GitHubLogo} alt="Github Logo" /></a>
+        <a href={this.state.git} target="_blank" rel="noopener noreferrer" className="holder">
+          <img className="git" src={GitHubLogo} alt="Github Logo" />
+          <div className="gitHover">
+            <div className="gitText">View GitHub</div>
+          </div>
+        </a>
         <p>{this.props.discription}</p>
       </div>
 

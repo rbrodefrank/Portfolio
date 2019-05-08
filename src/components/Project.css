@@ -8,7 +8,39 @@
   margin-right: 5px;
   opacity: 1;
   transition: .5s ease;
-  backface-visibility: hidden
+  backface-visibility: hidden;
+}
+
+.git {
+  height: 70px;
+  width: 70px;
+}
+.row {
+  min-width: 341px;
+}
+
+.col {
+  min-width: 341px;
+}
+
+.project {
+  height: 90%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /* max-width: 350px; */
+  border: .125rem solid black;
+  border-radius: 25px;
+  padding: 1rem!important;
+  background-color: rgba(87,162,182, .7);
+}
+
+a:hover .images, a:hover .git {
+  opacity: 0.4;
+}
+
+a:hover .middleText, a:hover .gitHover {
+  opacity: 1;
 }
 
 .middleText {
@@ -23,42 +55,30 @@
   text-align: center;
 }
 
-.git {
-  height: 50px;
-  width: 50px;
-}
-.row {
-  min-width: 318px;
-}
-
-.col {
-  min-width: 318px;
-}
-
-.project {
-  height: 90%;
-  margin: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  max-width: 350px;
-  border: .125rem solid black;
-  border-radius: 25px;
-  padding: 1rem!important;
-  background-color: rgba(87,162,182, .7);
-}
-
-a:hover .images {
-  opacity: 0.4;
-}
-
-a:hover .middleText {
-  opacity: 1;
-}
-
 .text {
-  background-color: lightblue;
+  background-color: rgb(87, 162, 182);
   color: black;
   font-weight: bold;
   font-size: 16px;
   padding: 10px 20px;
+}
+
+.gitHover {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.gitText {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 12px 8px;
 }
