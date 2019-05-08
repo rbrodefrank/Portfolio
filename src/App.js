@@ -9,7 +9,7 @@ import Background from './components/Background';
 
 class App extends Component {
   componentWillMount() {
-    console.log("test", )
+    console.log("test")
   }
   render() {
     // let style = {
@@ -27,7 +27,7 @@ class App extends Component {
         <NavBar />
         <Router>
           <div className="container">
-          <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/projects" component={Portfolio} />
             {/* <Route exact path="/contact" component={Contact} /> */}
