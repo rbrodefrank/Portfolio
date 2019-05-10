@@ -1,9 +1,6 @@
 {
   "name": "Portfolio",
   "version": "1.0.0",
-  "engines": {
-    "yarn": "1.15.2"
-  },
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
