@@ -2,5 +2,5 @@
   /* background: -moz-linear-gradient(90deg, rgba(89, 91, 255, 0.7), rgba(84, 232, 108, 0.7) 100%);
   background: -webkit-linear-gradient(90deg, rgba(89, 91, 255, 0.7), rgba(84, 232, 108, 0.7) 100%);
   background: -o-linear-gradient(90deg,  rgba(89, 91, 255, 0.7), rgba(84, 232, 108, 0.7) 100%); */
-  background: linear-gradient(to 90deg,  rgba(89, 91, 255, 0.7), rgba(84, 232, 108, 0.7) 100%);
+  background: linear-gradient(0deg,  rgba(89, 91, 255, 0.7), rgba(84, 232, 108, 0.7) 100%);
 }
