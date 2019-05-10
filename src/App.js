@@ -8,9 +8,6 @@ import Background from './components/Background';
 // import Contact from './pages/Contact';
 
 class App extends Component {
-  componentWillMount() {
-    console.log("test", )
-  }
   render() {
     // let style = {
     //   height: "100%",
