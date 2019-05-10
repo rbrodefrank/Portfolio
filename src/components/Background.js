@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ComputerBackground from "../images/background_computer.jpg";
 import DeveloperBackground from "../images/background_developer.jpg";
-import "./Background.css"
+import "./Background.css";
 
 // import Contact from './pages/Contact';
 
