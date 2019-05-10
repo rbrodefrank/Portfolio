@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ForestBackground from "../images/background_forest.jpg";
 import DeveloperBackground from "../images/background_developer.jpg";
-import "./Background.css"
+import "./Background.css";
 
 // import Contact from './pages/Contact';
 
