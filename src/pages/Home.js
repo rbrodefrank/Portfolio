@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import "./Pages.css"
 
 class Home extends Component {
-  componentWillMount = () => {
-    window.location = "/projects";
-  }
+  // componentWillMount = () => {
+  //   window.location = "/projects";
+  // }
 
   render() {
     return (
