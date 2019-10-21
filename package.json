@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.1.1",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
@@ -12,6 +13,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -38,5 +41,5 @@
   "bugs": {
     "url": "https://github.com/rbrodefrank/Portfolio/issues"
   },
-  "homepage": "https://github.com/rbrodefrank/Portfolio#readme"
+  "homepage": "https://rbrodefrank.github.io/Portfolio/"
 }
